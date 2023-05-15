@@ -1,0 +1,210 @@
+body
+{
+	background-color: #303030;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+#container 
+{
+	width: 1000px;  
+	margin-left: auto;  
+	margin-right: auto;
+	
+}
+	
+.rectangle
+{
+	width: 1000px;
+	/* min-height:50px; */
+	margin: 30px;
+	
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 25px;
+	background-color: blue;
+	/* padding: 20px; */
+	text-align: center;
+	/* text-align: right; */
+	/* margin-top: 30px; */
+	
+	
+}
+
+#logo 
+{
+	float: left; 
+	background-color: white;
+	/* color: white;  */
+	/* text-align: center; */
+	/* padding: 15px;   */
+	width: 100px;
+	padding: 10px;
+	
+	
+	
+}
+
+#empty
+{
+	float: left;
+	width: 160px;
+	background-color: #303030;
+	color: #303030;
+	/* po to by była "pusta komurka jak chcę" */
+	
+}
+
+#Games
+{
+	float: left;  
+	/* background-color: lightgray; */
+	/* width: 100px; */
+	/* min-height: 20px; */
+	/* padding: 10px; */
+	width: 180px;
+	/* background-color: black; */
+	
+}
+
+#Games:hover
+{
+	background-color: gray;
+	font-size: 27px;
+}
+
+#Info
+{
+	float: left;
+	/* padding: 20px; */
+	/* width: 1124px; */
+	/* min-height: 600px; */
+	/* background-color: yellow; */
+	width: 180px;	
+}
+
+#Info:hover
+{
+	background-color: gray;
+	font-size: 27px;
+}
+
+#Credits
+{
+	float: left;
+	/* width: 196px; */
+	/* min-height: 620px; */
+	/* padding: 10px; */
+	/* background-color: blue; */
+	width: 180px;	
+}
+
+#Credits:hover
+{
+	background-color: gray;
+	font-size: 27px;
+	
+}	
+	
+	
+#Contact
+{
+	float: left; 
+	width: 180px;
+	
+	
+}	
+
+#Contact:hover
+{
+	background-color: gray;
+	font-size: 27px;
+		
+}	
+
+a.titlelink  /* to jest do usunięcia podkreślenia hiperłącza na niebiesko */
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;  /* dzięki temu cały ten div będzie linkiem */
+	
+}
+
+b.tekstsetings /* to miało być do cententu w about me ale nie działa */
+
+{
+	text-align: left;
+	color: red;
+	
+		
+}
+
+c.gogleplayikon  /* to jest by linkował tylko ikonę google play a nie cały div */
+
+{
+	display: icon; 
+}
+
+#Gametitle
+
+{
+	clear: both;
+	/* background-color: black; */
+	text-align: center;
+	font-size: 30px;
+}
+
+#Content
+{
+	
+	width: 1000px;
+	margin: 20px;
+	min-height: 500px;
+	background-color: black;
+	color: white;
+	text-align: center; /*było center */
+	line-height: 200%; /* odstęp między wierszami tekstu */
+	padding: 10px;
+	margin-left: auto;  
+	margin-right: auto;
+}
+
+#ContentIndex
+{
+	width: 1000px;
+	margin: 20px;
+	min-height: 500px;
+	background-color: black;
+	color: white;
+	text-align: center; /*było center */
+	line-height: 200%;
+	margin-left: auto;  
+	margin-right: auto;
+}
+
+#Contener2 /* to jest do napisu free to play */
+{
+	text-align: center;
+	font-size: 27px;
+	color: red;
+}
+
+
+.Sklep
+{
+	text-align: center;
+	min-height: 40px;
+	/* background-color: green; */
+}
+
+
+#footer
+{
+	clear: both;  
+	background-color: black;
+	color: green;
+	text-align: center;
+	padding: 5px;
+		
+}
+	
+	
